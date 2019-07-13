@@ -13,9 +13,16 @@ cmake -G "MinGW Makefiles" ../code/ -DCMAKE_PREFIX_PATH=d:\Qt\5.7\msvc2015 -DPCB
 I haven't ported the companion.
 
 Directories...
+ - OpenTx_NucleoF412zg - Circuit Studio PCB files.  Gerber files in the output directories.
+ - opentx - git submodule pointing to the opentx source
+ - opentx_visualgdb - visualgdb project files
+ - opentx/code/nucleo-F412ZG.stm32cubemx - STM32 Cube MX file for this project.  It is only for pin allocation, not code generation.
 
 The hardware has...
-
-n analog inputs
-n switches
+- 15 analog inputs
+- 24 switches
+- No trim switches - I'm not sure what to do with these
+- Xlite style UI - 132x64 OLED display, 5-way joystick, enter, exit, power button.
+- I2S audio
+- multi protocol adaptor support
 
