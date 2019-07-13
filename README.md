@@ -20,9 +20,9 @@ Directories...
 
 The hardware has...
 - 15 analog inputs
-- 24 switches
+- 24 switches (2 or 3 position)
 - No trim switches - I'm not sure what to do with these
-- Xlite style UI - 132x64 OLED display, 5-way joystick, enter, exit, power button.
+- Xlite style UI - 128x64 OLED display, 5-way joystick, enter, exit, power button.
 - I2S audio
 - multi protocol adaptor support
 
