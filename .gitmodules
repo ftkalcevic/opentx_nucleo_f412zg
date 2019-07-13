@@ -1,0 +1,4 @@
+[submodule "opentx/code"]
+	path = opentx/code
+	url = https://github.com/ftkalcevic/opentx.git
+	branch = F412ZG
